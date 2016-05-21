@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andre.robotprojekt.BluetoothActivity">
+    <include layout="@layout/showlocation"/>
+    <!--<include layout="@layout/activity_heart_rate"/>-->
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary">
+
+        <ProgressBar
+            android:id="@+id/progress_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:indeterminate="true"
+            android:visibility="gone" />
+
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <android.support.v4.app.FragmentTabHost
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/tabHost"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/MyTabs"
+                />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/TabButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <!--<include layout="@layout/fragment_button"/>-->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/TabJoyStick"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <!--<include layout="@layout/joystick_fragment"/>-->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/TabSensor"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <!--<include layout="@layout/sensor_fragment"/>-->
+
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </android.support.v4.app.FragmentTabHost>
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  Applikations namnet -->
+    <string name="app_name">Robot Kontroller</string>
+
+    <!--  Different button name's -->
+    <string name="Btn_login">Logga in</string>
+    <string name="Btn_exit">Exit</string>
+    <string name="Btn_register">Registera</string>
+    <string name="Btn_back">Bakåt</string>
+
+    <!--  Differetn label name's -->
+    <string name="Password">Lösenord:</string>
+    <string name="Label_name">Namn:</string>
+
+    <!-- Titels on activitys -->
+    <string name="title_activity_login">Logga in</string>
+    <string name="title_activity_register">Registera</string>
+    <string name="title_activity_profile">Profil</string>
+
+    <!--  Toast error messages -->
+    <string name="ErrorPage">Du är redan på sidan!</string>
+    <string name="User_No_Bluetooth">Vänligen starta Bluetooth</string>
+
+    <!--  TextView's -->
+    <string name="Not_Registered">Inte registrerad? Gå till registeringssidan via menyn</string>
+    <string name="Reg_Info">Registera dig för att börja använda applikationen</string>
+
+    <!--  Different Activity name's -->
+    <string name="Bluetooth_controller">Bluetooth Kontroller</string>
+    <string name="Joystick_controller">Joystick Kontroller</string>
+    <string name="Button_controller">Knapp Kontroller</string>
+    <string name="Sensor_controller">Sensor Kontroller</string>
+
+    <!--  Bluetooth Message -->
+    <string name="ble_not_supported">BLuetooth LE stödjs inte på din telefon</string>
+    <string name="Bluetooth_on">Aktivera Bluetooth</string>
+    <string name="Bluetooth_allready_on">Bluetooth är redan aktivearat</string>
+
+    <string name="ble_is_supported">Telefonen stödjer Bluetooth LE!</string>
+    <string name="No_bluetooth">Ingen Bluetooth hittades inte på din telefon</string>
+
+    <string name="BtnCtr">Knapp</string>
+    <string name="JoyStckCtr">Joystick</string>
+    <string name="SenCtr">Sensor</string>
+
+    <!--  Bluetooth Class -->
+    <string name="unknown_device">Okänd enhet</string>
+    <string name="LoginSucsessFull">Inloggning Lyckades</string>
+    <string name="Login_Failed">Fel användarnamn eller lösenord</string>
+    <string name="Tag_2">Tagg 2</string>
+    <string name="Tag_1">Tagg 1</string>
+    <string name="Tag_3">Tagg 3</string>
+    <string name="Wrong_input">Namn eller lösenord kan inte vara tomt</string>
+    <string name="Activate_Place">Aktivera platstjänster</string>
+    <string name="No_internet_conn">Ingen internet åtkomst</string>
+
+    <string name="Searching_for_devices">Letar efter enheter....</string>
+    <string name="Menu_connect">Anslut</string>
+    <string name="Menu_Scan">Sök</string>
+    <string name="Database_Conn">Anslutning etablerad</string>
+    <string name="Pre_Conn">Ansluter..</string>
+
+</resources>

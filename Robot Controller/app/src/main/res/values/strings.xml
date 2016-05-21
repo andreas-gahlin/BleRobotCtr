@@ -1,0 +1,67 @@
+<resources>
+    <!--  Applikations namnet -->
+    <string name="app_name">Robot Controller</string>
+
+    <!--  Different button name's -->
+    <string name="Btn_login">Sign in</string>
+    <string name="Btn_exit">Exit</string>
+    <string name="Btn_register">Register</string>
+    <string name="Btn_back">Back</string>
+
+    <!--  Differetn label name's -->
+    <string name="Password">Password:</string>
+    <string name="Label_name">Name:</string>
+
+    <!-- Titels on activitys -->
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_heartrate">Mesuare heart</string>
+
+    <!--  Toast error messages -->
+    <string name="ErrorPage">You are already on the page!</string>
+    <string name="User_No_Bluetooth">Please start your bluetooth</string>
+
+    <!--  TextView's -->
+    <string name="Not_Registered">Not registered? Go to registration page via the menu</string>
+    <string name="Reg_Info">Register yourself to start using the application</string>
+
+    <!--  Different Activity name's -->
+    <string name="Bluetooth_controller">Bluetooth Controller</string>
+    <string name="Joystick_controller">Joystick Controller</string>
+    <string name="Button_controller">Button Controller</string>
+    <string name="Sensor_controller">Sensor Controller</string>
+
+    <!--  Bluetooth Message -->
+    <string name="ble_not_supported">No bluetooth Le support</string>
+    <string name="Bluetooth_on">Activate bluetooth</string>
+    <string name="Bluetooth_allready_on">Bluetooth is already on</string>
+
+    <string name="ble_is_supported">Bluetooth LE är supported!</string>
+    <string name="No_bluetooth">No bluetooth was found on your phone</string>
+
+    <string name="BtnCtr">Button</string>
+    <string name="JoyStckCtr">Joystick</string>
+    <string name="SenCtr">Sensor</string>
+    <string name="HandSteering">Tuned</string>
+
+    <!--  Bluetooth Class -->
+    <string name="unknown_device">Unknown device</string>
+    <string name="LoginSucsessFull">Login successful</string>
+    <string name="Login_Failed">Wrong Username or Password</string>
+    <string name="Tag_2">Tag 2</string>
+    <string name="Tag_1">Tag 1</string>
+    <string name="Tag_3">Tag 3</string>
+    <string name="Tag_4">Tag 4</string>
+    <string name="Wrong_input">Name/Password can not be empty</string>
+    <string name="Activate_Place">Activate your GPS service on your phone</string>
+    <string name="No_internet_conn">No internet connection</string>
+    <string name="Searching_for_devices">Searching for devices....</string>
+
+    <string name="Menu_connect">Connect</string>
+    <string name="Menu_heart">Measure Heartbeat</string>
+    <string name="Menu_Scan">Scan</string>
+    <string name="Database_Conn">Connecting established</string>
+    <string name="Pre_Conn">Connecting..</string>
+
+</resources>

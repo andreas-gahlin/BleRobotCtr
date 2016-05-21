@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/Btn_register"
+        android:id="@+id/menu_Register"
+        />
+    <item
+        android:title="@string/Btn_login"
+        android:id="@+id/menu_Signin"
+        />
+    <item
+        android:title="@string/Btn_exit"
+        android:id="@+id/menu_Exit"
+        />
+</menu>
